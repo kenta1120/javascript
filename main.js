@@ -43,6 +43,7 @@ function resetButton() {
   min = 0;
   sec = 0;
   ms = 0;
+  clearInterval(intervalId);
   timerHtml.textContent = `${hour} : ${min} : ${sec} : ${ms}`;
   /* ボタン押下の不可 */
   document.getElementById('start').disabled = false;
