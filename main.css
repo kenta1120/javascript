@@ -1,0 +1,22 @@
+.time {
+  font-size: 60px;
+  margin: 50px 30px;
+}
+
+#start {
+  width: 120px;
+  height: 60px;
+  margin-right: 5px;
+}
+
+#stop {
+  width: 120px;
+  height: 60px;
+  margin-right: 5px;
+}
+
+#reset {
+  width: 120px;
+  height: 60px;
+}
+
